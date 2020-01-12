@@ -1,7 +1,5 @@
 # vue-widget-layout
 
-[**[文档](https://suzedong.github.io/vue-widget-layout/) | [Changelog](/CHANGELOG.md)**]
-
 ## Project setup
 ```
 npm install
