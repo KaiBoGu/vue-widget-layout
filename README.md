@@ -1,6 +1,6 @@
 # vue-widget-layout
 
-[**[文档](https://suzedong.github.io/vue-widget-layout/) | [Changelog](/CHANGELOG.md)**]
+[**[demo](https://suzedong.github.io/vue-widget-layout/demo/index.html) | [文档](https://suzedong.github.io/vue-widget-layout/) | [Changelog](/CHANGELOG.md)**]
 
 ## Project setup
 ```
