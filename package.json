@@ -1,9 +1,25 @@
 {
   "name": "vue-widget-layout",
   "version": "0.1.0",
-  "private": true,
+  "description": "A draggable and resizable widget layout, as a Vue component.",
+  "keywords": [
+    "widget",
+    "grid",
+    "vuejs",
+    "drag",
+    "draggable",
+    "resize",
+    "resizable",
+    "fluid",
+    "responsive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suzedong/vue-widget-layout.git"
+  },
+  "author": "suzedong derek (Geek crazy) <324000115@qq.com> (https://suzedong.github.io/breakday-site/)",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --port 9527",
     "build": "vue-cli-service build",
     "build:demo": "vue-cli-service build --dest ./docs/.vuepress/dist/demo",
     "docs:dev": "vuepress dev docs",
@@ -13,6 +29,8 @@
   },
   "dependencies": {
     "core-js": "^3.4.4",
+    "element-resize-detector": "^1.1.15",
+    "interactjs": "^1.6.3",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -20,8 +38,11 @@
     "@vue/cli-plugin-eslint": "^4.1.0",
     "@vue/cli-service": "^4.1.0",
     "babel-eslint": "^10.0.3",
+    "babel-plugin-transform-flow-comments": "^6.7.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.1",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
